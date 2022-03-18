@@ -1,13 +1,11 @@
-import {React,Component} from 'react'
-
-export default class App extends Component{
-    render(){
-        return(
-            <div>
-                <h1>
-                Hello World
-                </h1>
-            </div>
-        )
-    }
+import React, { Component } from "react"
+import FetchData from "./FetchData"
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <FetchData />
+      </div>
+    )
+  }
 }
