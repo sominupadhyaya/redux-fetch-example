@@ -8,7 +8,9 @@ class FetchData extends Component {
       return (
         <div key={post.id}>
           <div>User id : {post.userId}</div>
-          <div>Post number : {post.id} </div>
+          <div>
+            Post number : {post.id}{" "}
+          </div>
           <div>title : {post.title}</div>
           <div>post : {post.body}</div>
           <br />
